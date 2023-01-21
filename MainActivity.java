@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         botao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mensagem = Snackbar.make(botao,"Ação realisada com sucesso!",Snackbar.LENGTH_LONG);
+                mensagem = Snackbar.make(botao,"Action performed successfully!"",Snackbar.LENGTH_LONG);
                 mensagem.show();
             }
         });
